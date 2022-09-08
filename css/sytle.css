@@ -23,7 +23,7 @@ nav{
 }
 
 #contenido{
-    height: 350px;
+    height: 500px;
 }
 
 #menu-principal{
@@ -39,7 +39,7 @@ i{
     text-align: center;
     width: 160px;
     border: 2.5px solid black;
-    margin: 5px 15px 5px 12px ;
+    margin: 5px 10px 5px 10px ;
     padding: 5px;
     font-size: 19px;
     text-decoration: none;
@@ -49,4 +49,41 @@ i{
 a{
     color: black;
     text-decoration: none;
+}
+
+footer{
+    border: 2.5px solid black;
+    height: 150px;
+    background-color: rgb(249, 14, 14) !important;
+    width: 97%;
+    margin: 5px 15px 5px 10px ;
+}
+
+article{
+    margin: 15px;
+    float: left;
+}
+
+#textoarticulo{
+    width: 52%;
+    border: 2.5px solid black;
+    text-align: left;
+}
+
+#imagenarticulo{
+    width: 38%;
+}
+
+p{
+    margin: 10px 15px;
+}
+article>section>ul{
+    margin-left: 40px;
+    color: blue;
+    font-size: 1.2em;
+}
+
+#imagenarticulo section>img{
+    width: 110%;
+    height: 350px;
 }
