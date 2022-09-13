@@ -87,3 +87,35 @@ article>section>ul{
     width: 110%;
     height: 350px;
 }
+
+#formulariocontacto{
+    margin: 0 auto;
+    width: 50%;
+    float: none;
+    float: none;
+}
+
+.intexto{
+    width: 60%;
+    height: 20px;
+    font-size: 1.1rem;
+    border: solid 0.8px black;
+}
+
+.control{
+    width: 90%;
+    margin: 15px;
+    display: flex;
+}
+
+label{
+    width: 100px;
+}
+
+.buttonform{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
