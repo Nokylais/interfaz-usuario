@@ -16,12 +16,12 @@
     <nav class="contenedor">
         <ul id="menu-principal">
             <li class="menu"><a href="index.html"><i class="fa-solid fa-house-chimney"></i><span>Inicio</span></a></li>
-            <li class="menu"><a href="quienessomos.html" target="_blank"><i class="fa-solid fa-people-group"></i><span>Quienes somos</span></a></li>
-            <li class="menu"><a href=""><i class="fa-solid fa-upload"></i><span>Publicaciones</span></a></li>
-            <li class="menu"><a href=""><i class="fa-solid fa-laptop"></i><span>Servicios</span></a></li>
-            <li class="menu"><a href="contacto.html" target="_blank"><i class="fa-solid fa-envelope"></i><span>Contacto</span></a></li>
+            <li class="menu"><a href="quienessomos.html"><i class="fa-solid fa-people-group"></i><span>Quienes somos</span></a></li>
+            <li class="menu"><a href="publicaciones.html"><i class="fa-solid fa-upload"></i><span>Publicaciones</span></a></li>
+            <li class="menu"><a href="servicios.html"><i class="fa-solid fa-laptop"></i><span>Servicios</span></a></li>
+            <li class="menu"><a href="contacto.html"><i class="fa-solid fa-envelope"></i><span>Contacto</span></a></li>
             <li class="menu"><a href="http://www.google.cl" target="_blank"><i class="fa-brands fa-google"></i><span>GOOGLE</span></a></li>
-            <li class="menu"><a href=""><i class="fa-solid fa-magnifying-glass"></i><span>Busqueda</span></a></li>
+            <li class="menu"><a href="busqueda.html"><i class="fa-solid fa-magnifying-glass"></i><span>Busqueda</span></a></li>
         </ul>
         <br>
     </nav>
@@ -32,34 +32,40 @@
             </header>
             <section style="margin-bottom: 10px; padding-bottom: 10px; background-color: #54a5f1;">
                 <form action="">
-                    <div class="control">
-                        <label>Nombre:</label>
-                        <input class="intexto" type="text" name="txtnombre" id="txtnombre" placeholder="Ingrese su nombre" required autocomplete="off">
-                    </div>
-                    <div class="control">
-                        <label for="">Contraseña:</label>
-                        <input class="intexto" type="password" name="txtclave" id="txtclave" placeholder="Ingrese su clave" maxlength="10">
-                    </div>
-                    <div class="control">
-                        <label for="">Edad:</label>
-                        <input class="intexto" type="number" name="txtedad" id="txtclave" placeholder="Ingrese su edad" maxlength="3" value="18">
-                    </div>
-                    <div class="control">
-                        <label for="">E-mail:</label>
-                        <input class="intexto" type="email" name="txtemail" id="txtemail" placeholder="Ingrese su correo">
-                    </div>
-                    <div>   
-                        <button class="buttonform" type="reset">Limpiar</button>
-                        <button class="buttonform" type="reset">Enviar</button>
-                    </div>
-                
-                
+                    <fieldset>
+                        <legend>Ingrese sus datos</legend>
+                        <div class="control">
+                            <label for="Nombre">Nombre:</label>
+                            <input class="intexto" type="text" name="txtnombre" id="txtnombre" placeholder="Ingrese su nombre" required autocomplete="off" >
+                        </div>
+                        <div class="control">
+                            <label for="">Contraseña:</label>
+                            <input class="intexto" type="password" name="txtclave" id="txtclave" placeholder="Ingrese su clave" maxlength="8">
+                        </div>
+                        <div class="control">
+                            <label for="">Edad:</label>
+                            <input class="intexto" type="number" name="txtedad" id="txtclave" placeholder="Ingrese su edad" maxlength="3" value="18">
+                        </div>
+                        <div class="control">
+                            <label for="">E-mail:</label>
+                            <input class="intexto" type="email" name="txtemail" id="txtemail" placeholder="Ingrese su correo">
+                        </div>
+                        <div class="control">
+                            <input type="radio" name="txtgenero" value="Masculino">Masculino<br>
+                            <input type="radio" name="txtgenero" value="Femenino">Femenino<br>
+                        </div>
+                        <div>   
+                            <button class="buttonform" type="reset">Limpiar</button>
+                            <button class="buttonform" type="reset">Enviar</button>
+                        </div>
+                    </fieldset>
+                    
                 </form>
             </section>
         </article>
-        <article id="imagenarticulo">
+        <article class="imagencontacto">
             <section>
-                <img src="./images/contacto.jpg" alt="chupalo">
+                <img src="./images/contacto.jpg" alt="">
             </section>
         </article>
     </section>
