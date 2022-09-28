@@ -1,0 +1,53 @@
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; /*tipo de letra*/
+}
+header{
+    border: 2px solid black; /*borde (el cuadro para texto)*/
+   width: 87%;                 /*ANCHO del cuadro*/
+   margin: 10px auto;      /*margen separacion desde el body*/
+   padding: 2px;              /*espacio entre borde cuadro y texto*/
+   text-align: center;         /*alineacion texto (right center left*/
+   background-color: rgb(14, 235, 235); /*color de fondo*/
+   height: 100px;                /*alto de cuadro*/
+
+}
+
+h1{
+    color: red;
+    font-size: 35px;
+}
+
+nav{
+    border: 1px solid black; /*borde (el cuadro para texto)*/
+    width: 85%;                 /*ANCHO del cuadro*/
+    margin: 10px auto;      /*margen separacion desde el body*/
+    padding: 20px;              /*espacio entre borde cuadro y texto*/
+    text-align: center;         /*alineacion texto (right center left*/
+    background-color: rgb(14, 235, 235); /*color de fondo*/
+    height: 50px;                /*alto de cuadro*/
+}
+
+section{
+    border: 1px solid black; /*borde (el cuadro para texto)*/
+    width: 85%;                 /*ANCHO del cuadro*/
+    margin: 10px auto;      /*margen separacion desde el body*/
+    padding: 20px;              /*espacio entre borde cuadro y texto*/
+    text-align: center;         /*alineacion texto (right center left*/
+    background-color: rgb(117, 181, 181); /*color de fondo*/
+    height: 300px;                /*alto de cuadro*/
+}
+
+footer{
+    border: 1px solid black; /*borde (el cuadro para texto)*/
+    width: 85%;                 /*ANCHO del cuadro*/
+    margin: 10px auto;      /*margen separacion desde el body*/
+    padding: 20px;              /*espacio entre borde cuadro y texto*/
+    text-align: center;         /*alineacion texto (right center left*/
+    background-color: rgb(33, 113, 43); /*color de fondo*/
+    height: 50px;                /*alto de cuadro*/
+}
+
+.anav{
+    text-decoration: none;
+    color: rgb(8, 0, 255);
+}
