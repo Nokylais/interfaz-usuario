@@ -1,5 +1,6 @@
 body{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; /*tipo de letra*/
+   height: 100vh;
 }
 header{
     border: 2px solid black; /*borde (el cuadro para texto)*/
@@ -7,13 +8,13 @@ header{
    margin: 10px auto;      /*margen separacion desde el body*/
    padding: 2px;              /*espacio entre borde cuadro y texto*/
    text-align: center;         /*alineacion texto (right center left*/
-   background-color: rgb(14, 235, 235); /*color de fondo*/
+   background-color: rgb(138, 76, 36); /*color de fondo*/
    height: 100px;                /*alto de cuadro*/
 
 }
 
 h1{
-    color: red;
+    color: black;
     font-size: 35px;
 }
 
@@ -23,7 +24,7 @@ nav{
     margin: 10px auto;      /*margen separacion desde el body*/
     padding: 20px;              /*espacio entre borde cuadro y texto*/
     text-align: center;         /*alineacion texto (right center left*/
-    background-color: rgb(14, 235, 235); /*color de fondo*/
+    background-color: rgb(32, 146, 150); /*color de fondo*/
     height: 50px;                /*alto de cuadro*/
 }
 
@@ -34,13 +35,13 @@ section{
     padding: 20px;              /*espacio entre borde cuadro y texto*/
     text-align: center;         /*alineacion texto (right center left*/
     background-color: rgb(117, 181, 181); /*color de fondo*/
-    height: 300px;                /*alto de cuadro*/
+    height: 100px;                /*alto de cuadro*/
 }
 
 footer{
     border: 1px solid black; /*borde (el cuadro para texto)*/
     width: 85%;                 /*ANCHO del cuadro*/
-    margin: 10px auto;      /*margen separacion desde el body*/
+    margin: 1px auto;      /*margen separacion desde el body*/
     padding: 20px;              /*espacio entre borde cuadro y texto*/
     text-align: center;         /*alineacion texto (right center left*/
     background-color: rgb(33, 113, 43); /*color de fondo*/
@@ -50,4 +51,41 @@ footer{
 .anav{
     text-decoration: none;
     color: rgb(8, 0, 255);
+}
+.container{                     /*card ejemplox*/
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    perspective: 1000px;
+    height: 220px;
+    width: 130px;
+    position: relative;
+    margin: 5px;
+}
+.card img{
+    width: 100%;
+}
+.card .back{
+    position: absolute;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s linear;
+}
+.card .front{
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s linear;
+}
+.card:hover .back{
+    transform: rotateY(-180deg);
+    cursor: pointer;
+}
+.card:hover .front{
+    transform: rotateY(0deg);
+    cursor: pointer;
 }
