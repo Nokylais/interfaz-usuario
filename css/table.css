@@ -1,0 +1,20 @@
+table, th, td{
+    border-collapse: collapse; /*modifica cuadro lineas interior*/
+    border: 1px solid;
+  }
+
+  table{
+    width: 100%;
+  }
+
+  th{
+    background-color: yellow;
+  }
+
+  td{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  td:hover{
+    background-color: coral;
+  }
