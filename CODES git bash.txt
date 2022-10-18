@@ -1,0 +1,65 @@
+<cd "ubicacion archivo"	 		**arrastrar carp al git bash y anteponer "cd"**
+ls					**ver archivos de carpeta**
+code .                			**abre visual code**
+en vcode cambiar terminal bash
+new file "index.html" y Html:5
+crear respositorio en github
+git init				**iniciar repositorio en carpeta**
+git add index.html			**agrega el archivo**
+git commit -m "first commit"		**guarda correo o name cuenta github**
+git config --global user.email "mario.rivas@virginiogomez.cl"	**guarda correo git hub**
+git config --global user.name "cuenta"	**guarda cuenta github**
+git commit -m "first commit"		**ahora verifica cuenta y correo github**
+git branch -M main			**cambia nombre master a main**
+git remote add origin https://github.com/Nokylais/interfaz-usuario.git **entra al usuario**
+git push -u origin main			**subir info a la nube**
+git pull -u origin main			**bajar info de la nube**
+
+//para volvera conectar a la nube//
+git remote add origin https://github.com/Nokylais/interfaz-usuario.git
+git branch -M main
+
+//PARA MODIFICAR//
+ABRIR GIT BASH Y SELEC LA CARPETA Y ARRASTRAR
+git branch -M main
+**conectar con github con el token
+git remote set-url origin https://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@github.com/Nokylais/interfaz-usuario.git
+git remote set-url origin https://github.com/Nokylais/interfaz-usuario.git
+git pull				**descarga para vscode**
+
+//CREAR RAMAS//
+git checkout -b feature-layout (rama nueva)
+
+//GUARDAR Y SUBIR//
+git add .
+git commit -m "se agrega vaina"
+git push -u origin (name rama)
+git checkout main			**volver a rama main**
+git merge (name rama)
+git push
+
+//descargar de otro pc//
+git clone https://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@github.com/Nokylais/interfaz-usuario.git
+git --config--
+
+git remote -v
+
+//vscode//
+readonly 	**solo lectura**
+required	**completar si o si**
+li		**caja**
+header		**TITULO 1 encabezado**
+article		**TITULO 2**
+aside		**subtitulo 1**
+footer		**para texto**
+br		**salto reglon**
+nav		**navegador**
+a (enter)	**refer enlaces**
+target(dentro de a) **opciones de pagina**
+_blank		**pinchar link y abre otra pestaña**
+img src(tab)	**agregar imagen con enlace**
+h1 a h4		**tamaño de letra**
+textarea	**dejar comentarios
+
+//ICON AWESOME//
+<script src="https://kit.fontawesome.com/8cf5aa54ee.js" crossorigin="anonymous"></script>
